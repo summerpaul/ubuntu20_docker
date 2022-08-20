@@ -1,0 +1,23 @@
+version: "3"
+services:
+  motion-planning-ros-noetic-vnc:
+    build:
+      context: docker
+      dockerfile: Dockerfile
+      network: host
+    image: motion-planning-ros-noetic-vnc:noetic
+    container_name: motion-planning-paul
+    
+    privileged: true
+    environment:
+      - RESOLUTION=1920x1080
+    volumes:
+      # mount your workspace here:
+        - $PWD/Project:/home/ubuntu/
+    ports:
+      # HTML5 VNC:
+      - 6080:80
+       # standard VNC client:
+      - 5900:5900
+      # ROS master:
+      - 11311:11311
