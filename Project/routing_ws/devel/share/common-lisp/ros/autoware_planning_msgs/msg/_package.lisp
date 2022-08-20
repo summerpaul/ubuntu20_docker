@@ -1,0 +1,25 @@
+(cl:defpackage autoware_planning_msgs-msg
+  (:use )
+  (:export
+   "<LANESEQUENCE>"
+   "LANESEQUENCE"
+   "<PATH>"
+   "PATH"
+   "<PATHPOINT>"
+   "PATHPOINT"
+   "<PATHPOINTWITHLANEID>"
+   "PATHPOINTWITHLANEID"
+   "<PATHWITHLANEID>"
+   "PATHWITHLANEID"
+   "<ROUTE>"
+   "ROUTE"
+   "<ROUTESECTION>"
+   "ROUTESECTION"
+   "<SCENARIO>"
+   "SCENARIO"
+   "<TRAJECTORY>"
+   "TRAJECTORY"
+   "<TRAJECTORYPOINT>"
+   "TRAJECTORYPOINT"
+  ))
+

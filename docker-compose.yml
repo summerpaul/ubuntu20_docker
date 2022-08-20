@@ -7,13 +7,14 @@ services:
       network: host
     image: motion-planning-ros-noetic-vnc:noetic
     container_name: motion-planning-paul
+    hostname: ubuntu
     
     privileged: true
     environment:
       - RESOLUTION=1920x1080
     volumes:
       # mount your workspace here:
-        - $PWD/Project:/home/ubuntu/
+        - $PWD/Project:/home/ubuntu/Project
     ports:
       # HTML5 VNC:
       - 6080:80

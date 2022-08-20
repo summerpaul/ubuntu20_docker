@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/Project/routing_ws/devel
+
+Name: map_loader
+Description: Description of map_loader
+Version: 0.1.0
+Cflags: -I/home/ubuntu/Project/routing_ws/src/map/map_loader/include
+Libs: -L${prefix}/lib 
+Requires: geometry_msgs std_msgs tf2_geometry_msgs visualization_msgs

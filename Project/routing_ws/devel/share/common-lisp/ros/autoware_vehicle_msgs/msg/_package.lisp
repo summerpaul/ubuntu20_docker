@@ -1,0 +1,21 @@
+(cl:defpackage autoware_vehicle_msgs-msg
+  (:use )
+  (:export
+   "<CONTROLMODE>"
+   "CONTROLMODE"
+   "<RAWCONTROLCOMMAND>"
+   "RAWCONTROLCOMMAND"
+   "<RAWVEHICLECOMMAND>"
+   "RAWVEHICLECOMMAND"
+   "<SHIFT>"
+   "SHIFT"
+   "<SHIFTSTAMPED>"
+   "SHIFTSTAMPED"
+   "<STEERING>"
+   "STEERING"
+   "<TURNSIGNAL>"
+   "TURNSIGNAL"
+   "<VEHICLECOMMAND>"
+   "VEHICLECOMMAND"
+  ))
+

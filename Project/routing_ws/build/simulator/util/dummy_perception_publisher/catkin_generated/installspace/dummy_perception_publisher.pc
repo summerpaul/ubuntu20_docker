@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/Project/routing_ws/install
+
+Name: dummy_perception_publisher
+Description: Description of dummy_perception_publisher
+Version: 0.1.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime roscpp sensor_msgs tf2 tf2_geometry_msgs tf2_ros autoware_perception_msgs pcl_ros uuid_msgs unique_id
