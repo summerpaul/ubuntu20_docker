@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/Project/motion_planning_ws/install
+
+Name: common
+Description: Description of common
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

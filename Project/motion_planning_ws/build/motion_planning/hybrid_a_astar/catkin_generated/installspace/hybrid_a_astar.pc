@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/Project/motion_planning_ws/install
+
+Name: hybrid_a_astar
+Description: Description of hybrid_a_astar
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

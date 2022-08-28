@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/Project/fast_planner_ws/devel
+
+Name: plan_env
+Description: Description of plan_env
+Version: 0.0.0
+Cflags: -I/home/ubuntu/Project/fast_planner_ws/src/Fast-Planner/fast_planner/plan_env/include
+Libs: -L${prefix}/lib -lplan_env
+Requires: roscpp std_msgs
