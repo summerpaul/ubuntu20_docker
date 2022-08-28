@@ -131,10 +131,8 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/ubuntu/Project/motion_planning_ws/build/gtest/cmake_install.cmake")
-  include("/home/ubuntu/Project/motion_planning_ws/build/motion_planning/common/cmake_install.cmake")
-  include("/home/ubuntu/Project/motion_planning_ws/build/motion_planning/global_planner/cmake_install.cmake")
-  include("/home/ubuntu/Project/motion_planning_ws/build/motion_planning/hybrid_astar/cmake_install.cmake")
   include("/home/ubuntu/Project/motion_planning_ws/build/motion_planning/map_generator/cmake_install.cmake")
+  include("/home/ubuntu/Project/motion_planning_ws/build/motion_planning/motion_planning/cmake_install.cmake")
 
 endif()
 

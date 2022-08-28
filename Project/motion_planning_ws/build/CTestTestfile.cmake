@@ -5,7 +5,5 @@
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
 subdirs("gtest")
-subdirs("motion_planning/common")
-subdirs("motion_planning/global_planner")
-subdirs("motion_planning/hybrid_astar")
 subdirs("motion_planning/map_generator")
+subdirs("motion_planning/motion_planning")

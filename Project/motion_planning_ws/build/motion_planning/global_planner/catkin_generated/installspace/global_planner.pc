@@ -1,8 +1,0 @@
-prefix=/home/ubuntu/Project/motion_planning_ws/install
-
-Name: global_planner
-Description: Description of global_planner
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib -lgridmap
-Requires: 

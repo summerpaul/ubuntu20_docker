@@ -38,4 +38,12 @@ RUN apt-get update -q --fix-missing && \
 	ros-noetic-map-server
 
 
+RUN git clone https://github.com/gabime/spdlog.git 
+RUN cd spdlog && \
+    mkdir build && cd build && \
+    cmake .. && \
+    make -j8 && \
+    make install && \
+    ldconfig
+RUN cd .. && rm -rf spdlog
 
