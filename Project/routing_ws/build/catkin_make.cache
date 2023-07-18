@@ -1,2 +1,0 @@
-common/msgs/autoware_control_msgs:common/msgs/autoware_lanelet2_msgs:common/msgs/autoware_perception_msgs:common/msgs/autoware_planning_msgs:common/msgs/autoware_system_msgs:common/msgs/autoware_vehicle_msgs:lanelet2_extension:map/map_loader:map/map_tf_generator:map/util/lanelet2_map_preprocessor:mission_planner:simulator/simple_planning_simulator:simulator/util/dummy_perception_publisher
--DCATKIN_DEVEL_PREFIX=/home/ubuntu/Project/routing_ws/devel -DCMAKE_INSTALL_PREFIX=/home/ubuntu/Project/routing_ws/install -G Unix Makefiles

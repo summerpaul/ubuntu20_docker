@@ -1,2 +1,0 @@
-motion_planning/map_generator:motion_planning/motion_planning
--DCATKIN_DEVEL_PREFIX=/home/ubuntu/Project/motion_planning_ws/devel -DCMAKE_INSTALL_PREFIX=/home/ubuntu/Project/motion_planning_ws/install -G Unix Makefiles

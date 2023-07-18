@@ -1,8 +1,0 @@
-prefix=/home/ubuntu/Project/routing_ws/devel
-
-Name: mission_planner
-Description: Description of mission_planner
-Version: 0.1.0
-Cflags: -I/home/ubuntu/Project/routing_ws/src/mission_planner/include
-Libs: -L${prefix}/lib 
-Requires: autoware_planning_msgs lanelet2_extension roscpp tf2_ros

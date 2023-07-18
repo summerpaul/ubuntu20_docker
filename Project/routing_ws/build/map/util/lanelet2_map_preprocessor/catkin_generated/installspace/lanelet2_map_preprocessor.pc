@@ -1,8 +1,0 @@
-prefix=/home/ubuntu/Project/routing_ws/install
-
-Name: lanelet2_map_preprocessor
-Description: Description of lanelet2_map_preprocessor
-Version: 0.1.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

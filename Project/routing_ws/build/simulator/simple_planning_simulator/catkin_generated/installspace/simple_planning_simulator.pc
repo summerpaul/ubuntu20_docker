@@ -1,8 +1,0 @@
-prefix=/home/ubuntu/Project/routing_ws/install
-
-Name: simple_planning_simulator
-Description: Description of simple_planning_simulator
-Version: 0.1.0
-Cflags: -I${prefix}/include
-Libs: -L${prefix}/lib 
-Requires: roscpp std_msgs tf2 tf2_ros geometry_msgs autoware_planning_msgs autoware_control_msgs autoware_vehicle_msgs

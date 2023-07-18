@@ -1,8 +1,0 @@
-prefix=/home/ubuntu/Project/routing_ws/install
-
-Name: lanelet2_extension
-Description: Description of lanelet2_extension
-Version: 0.1.0
-Cflags: -I${prefix}/include
-Libs: -L${prefix}/lib -llanelet2_extension_lib
-Requires: roscpp lanelet2_core lanelet2_io lanelet2_maps lanelet2_projection lanelet2_routing lanelet2_traffic_rules lanelet2_validation autoware_lanelet2_msgs geometry_msgs visualization_msgs

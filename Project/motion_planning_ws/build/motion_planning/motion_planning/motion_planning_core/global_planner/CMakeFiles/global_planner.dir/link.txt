@@ -1,2 +1,0 @@
-/usr/bin/ar qc /home/ubuntu/Project/motion_planning_ws/devel/lib/libglobal_planner.a  CMakeFiles/global_planner.dir/kinodynamic_astar.cpp.o CMakeFiles/global_planner.dir/astar_search.cpp.o CMakeFiles/global_planner.dir/hybrid_astar.cpp.o
-/usr/bin/ranlib /home/ubuntu/Project/motion_planning_ws/devel/lib/libglobal_planner.a

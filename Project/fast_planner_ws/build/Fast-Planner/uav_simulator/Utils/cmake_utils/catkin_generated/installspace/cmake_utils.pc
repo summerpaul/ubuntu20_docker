@@ -1,8 +1,0 @@
-prefix=/home/ubuntu/Project/fast_planner_ws/install
-
-Name: cmake_utils
-Description: Description of cmake_utils
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

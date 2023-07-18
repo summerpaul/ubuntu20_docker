@@ -1,8 +1,0 @@
-prefix=/home/ubuntu/Project/routing_ws/devel
-
-Name: map_tf_generator
-Description: Description of map_tf_generator
-Version: 0.1.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
